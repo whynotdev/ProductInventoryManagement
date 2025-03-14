@@ -1,0 +1,78 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "arif.m@gmail.com",
+      "password": "pass123",
+      "firstName": "Arif",
+      "lastName": "Mungus",
+      "location": "Bangalore",
+      "mobileNumber": "7894561235"
+    },
+    {
+      "id": 2,
+      "email": "aziz.s@gmail.com",
+      "password": "pass456",
+      "firstName": "Aziz",
+      "lastName": "S",
+      "location": "Los Angeles",
+      "mobileNumber": "0987123321"
+    },
+    {
+      "id": 3,
+      "email": "fatima.k@gmail.com",
+      "password": "pass789",
+      "firstName": "Fatima",
+      "lastName": "K",
+      "location": "Dubai",
+      "mobileNumber": "55667478899"
+    },
+    {
+      "id": 4,
+      "email": "rohan.sharma@gmail.com",
+      "password": "pass321",
+      "firstName": "Rohan",
+      "lastName": "Sharma",
+      "location": "Mumbai",
+      "mobileNumber": "9456789455"
+    }
+  ],
+  "products": [
+    {
+      "id": 101,
+      "name": "Laptop",
+      "description": "A powerful gaming laptop",
+      "manufacturer": "Tech Corp",
+      "manufacturingDate": "2025-02-21",
+      "price": 1400,
+      "quantity": 15
+    },
+    {
+      "id": 102,
+      "name": "Smartphone",
+      "description": "Latest smartphone with 5G",
+      "manufacturer": "Mobile Inc",
+      "manufacturingDate": "2025-01-21",
+      "price": 950,
+      "quantity": 40
+    },
+    {
+      "id": 103,
+      "name": "Smartwatch",
+      "description": "Advanced smartwatch with health tracking",
+      "manufacturer": "WearTech",
+      "manufacturingDate": "2025-03-05",
+      "price": 300,
+      "quantity": 25
+    },
+    {
+      "id": 104,
+      "name": "Wireless Headphones",
+      "description": "Noise-canceling wireless headphones",
+      "manufacturer": "SoundTech",
+      "manufacturingDate": "2025-02-28",
+      "price": 200,
+      "quantity": 30
+    }
+  ]
+}

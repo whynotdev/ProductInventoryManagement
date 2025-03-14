@@ -1,0 +1,53 @@
+nav {
+  background-color: #000000;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 2px;
+}
+
+nav a {
+  color: rgb(247, 241, 241);
+  text-decoration: none;
+  font-size: 18px;
+  margin: 0 15px;
+  transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+  color: #f39c12;
+}
+
+nav ng-container {
+  display: flex;
+  align-items: center;
+}
+
+nav button {
+  background-color: #e74c3c; /* Red logout button */
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+nav button:hover {
+  background-color: #c0392b; 
+}
+
+
+@media (max-width: 768px) {
+  nav {
+      flex-direction: column;
+      align-items: center;
+      padding: 10px;
+  }
+
+  nav a, nav button {
+      margin: 5px 0;
+  }
+}
