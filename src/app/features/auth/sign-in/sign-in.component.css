@@ -1,25 +1,28 @@
-form {
+
+.sign-in-container {
   max-width: 400px;
   margin: 50px auto;
   padding: 20px;
-  background-color: #f8f9fa; 
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fcfcfc; 
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
 }
+
 
 h2 {
-  text-align: center;
   color: #2c3e50;
+  margin-bottom: 20px;
 }
 
-div {
+
+.form-group {
+  text-align: left;
   margin-bottom: 15px;
 }
 
 label {
-  display: block;
   font-weight: bold;
-  margin-bottom: 5px;
   color: #34495e;
 }
 
@@ -29,49 +32,47 @@ input {
   border: 1px solid #bdc3c7;
   border-radius: 5px;
   font-size: 16px;
+  transition: 0.3s;
 }
 
 input:focus {
+  border-color: #27ae60;
+  box-shadow: 0 0 5px rgba(39, 174, 96, 0.5);
   outline: none;
-  border-color: #3498db;
-  box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
 }
+
+
+.error {
+  color: #de321f;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
 
 button {
   width: 100%;
-  padding: 10px;
-  background-color: #3498db;
-  color: white;
+  padding: 12px;
+  background-color: #27ae60; 
+  color: rgb(7, 6, 6);
   border: none;
   border-radius: 5px;
   font-size: 16px;
   cursor: pointer;
-  transition: background 0.3s;
+  transition: background 0.3s, transform 0.2s;
 }
 
 button:hover {
-  background-color: #2980b9;
+  background-color: #219150;
+  transform: scale(1.05);
 }
 
 button:disabled {
-  background-color: #bdc3c7;
+  background-color: #b6d3fa;
   cursor: not-allowed;
 }
 
-.error-message {
-  color: #e74c3c;
-  font-weight: bold;
-  text-align: center;
-  margin-bottom: 10px;
-}
-
-small {
-  color: #e74c3c;
-}
-
-/* Responsive Design */
 @media (max-width: 500px) {
-  form {
+  .sign-in-container {
       width: 90%;
       padding: 15px;
   }

@@ -8,6 +8,7 @@ import { AuthService } from "../../../core/auth.service";
   styleUrls: ["./sign-in.component.css"],
 })
 export class SignInComponent {
+  
   errorMessage: string = "";
 
   constructor(private authService: AuthService, private router: Router) {}
