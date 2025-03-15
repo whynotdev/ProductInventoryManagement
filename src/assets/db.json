@@ -43,9 +43,8 @@
       "name": "Laptop",
       "description": "A powerful gaming laptop",
       "manufacturer": "Tech Corp",
-      "manufacturingDate": "2025-02-21",
       "price": 1400,
-      "quantity": 15
+      "quantity": 16
     },
     {
       "id": 102,

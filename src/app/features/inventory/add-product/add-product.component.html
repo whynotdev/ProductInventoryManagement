@@ -1,6 +1,7 @@
-<h2>Add Product</h2>
+
 <form (ngSubmit)="onAdd(addProductForm)" #addProductForm="ngForm">
     <div>
+        <h2>Add Product</h2>
         <label>Name:</label>
         <input type="text" name="name" ngModel required minlength="3" #name="ngModel" />
         <div *ngIf="name.invalid && name.touched">

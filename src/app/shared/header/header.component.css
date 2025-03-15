@@ -1,6 +1,6 @@
 nav {
-  background-color: #000000;
-  padding: 15px;
+  background-color: #160C28;
+  padding: 18px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -10,13 +10,15 @@ nav {
 nav a {
   color: rgb(247, 241, 241);
   text-decoration: none;
-  font-size: 18px;
+  font-size: 25px;
+font-style: italic;
+font-weight: bold;
   margin: 0 15px;
   transition: color 0.3s ease-in-out;
 }
 
 nav a:hover {
-  color: #f39c12;
+  color: #e8a437;
 }
 
 nav ng-container {

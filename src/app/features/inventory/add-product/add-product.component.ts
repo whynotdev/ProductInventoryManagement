@@ -12,7 +12,7 @@ export class AddProductComponent {
 
   onAdd(form: any): void {
     if (form.valid) {
-      const newProduct = { ...form.value, id: Date.now() }; // Generate a unique ID
+      const newProduct = { ...form.value, id: Date.now() }; 
       this.dataService.addProduct(newProduct).subscribe(() => {
         alert('Product added successfully!');
         this.router.navigate(['/inventory']);

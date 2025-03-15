@@ -1,18 +1,22 @@
 
 .sign-in-container {
-  max-width: 400px;
-  margin: 50px auto;
-  padding: 20px;
-  background-color: #fcfcfc; 
-  border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 450px;
+  padding: 25px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
   text-align: center;
+  margin: 100px auto; 
 }
+
 
 
 h2 {
   color: #2c3e50;
   margin-bottom: 20px;
+  font-weight: bold;
+  font-style: italic;
 }
 
 
@@ -28,11 +32,12 @@ label {
 
 input {
   width: 100%;
-  padding: 10px;
+  padding: 12px;
   border: 1px solid #bdc3c7;
   border-radius: 5px;
-  font-size: 16px;
+  font-size: 18px;
   transition: 0.3s;
+  background-color: #e1e9f3;
 }
 
 input:focus {
@@ -56,8 +61,10 @@ button {
   color: rgb(7, 6, 6);
   border: none;
   border-radius: 5px;
-  font-size: 16px;
+  font-size: 18px;
+  font-weight: bold;
   cursor: pointer;
+  font-style: italic;
   transition: background 0.3s, transform 0.2s;
 }
 
@@ -69,6 +76,26 @@ button:hover {
 button:disabled {
   background-color: #b6d3fa;
   cursor: not-allowed;
+}
+.register-link {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 15px;
+  color: #333;
+  font-style: italic;
+}
+
+.register-link a {
+  color: #ff9800;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease-in-out;
+}
+
+.register-link a:hover {
+  color: #e68900;
+  text-decoration: underline;
 }
 
 @media (max-width: 500px) {

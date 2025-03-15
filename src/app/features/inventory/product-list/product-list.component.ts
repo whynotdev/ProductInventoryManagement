@@ -40,14 +40,13 @@ export class ProductListComponent implements OnInit {
   }
 
   deleteProduct(id: number): void {
-    // Check if the user is authenticated
+    
     if (!this.authService.isLoggedIn()) {
       alert('You must be logged in to delete a product!');
-      this.router.navigate(['/auth/sign-in']); // Redirect to login page
+      this.router.navigate(['/auth/sign-in']); 
       return;
     }
-
-    // Proceed with deletion if authenticated
+ 
     this.dataService.deleteProduct(id).subscribe(() => {
       this.products = this.products.filter(product => product.id !== id);
       this.filteredProducts = this.filteredProducts.filter(product => product.id !== id);
