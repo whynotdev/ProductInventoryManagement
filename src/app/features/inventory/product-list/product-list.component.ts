@@ -40,16 +40,26 @@ export class ProductListComponent implements OnInit {
   }
 
   deleteProduct(id: number): void {
-    
     if (!this.authService.isLoggedIn()) {
       alert('You must be logged in to delete a product!');
       this.router.navigate(['/auth/sign-in']); 
       return;
     }
- 
-    this.dataService.deleteProduct(id).subscribe(() => {
-      this.products = this.products.filter(product => product.id !== id);
-      this.filteredProducts = this.filteredProducts.filter(product => product.id !== id);
-    });
+    const confirmDelete = window.confirm("Are you sure you want to delete this product?");
+  
+    if (confirmDelete) {
+      this.dataService.deleteProduct(id).subscribe({
+        next: () => {
+          this.products = this.products.filter(product => product.id !== id);
+          this.filteredProducts = this.filteredProducts.filter(product => product.id !== id);
+          alert("Product deleted successfully!"); 
+        },
+        error: (err) => {
+          console.error("Error deleting product:", err);
+          alert("Failed to delete the product!");
+        }
+      });
+    }
   }
+  
 }

@@ -39,39 +39,57 @@
   ],
   "products": [
     {
-      "id": 101,
-      "name": "Laptop",
-      "description": "A powerful gaming laptop",
-      "manufacturer": "Tech Corp",
-      "price": 1400,
-      "quantity": 16
+      "id": 105,
+      "name": "Tablet",
+      "description": "High-performance tablet with stylus support",
+      "manufacturer": "GadgetWorld",
+      "manufacturingDate": "2025-02-15",
+      "price": 600,
+      "quantity": 20
     },
     {
-      "id": 102,
-      "name": "Smartphone",
-      "description": "Latest smartphone with 5G",
-      "manufacturer": "Mobile Inc",
-      "manufacturingDate": "2025-01-21",
-      "price": 950,
-      "quantity": 40
+      "id": 106,
+      "name": "Bluetooth Speaker",
+      "description": "Portable speaker with deep bass",
+      "manufacturer": "AudioMax",
+      "manufacturingDate": "2025-01-30",
+      "price": 150,
+      "quantity": 50
     },
     {
-      "id": 103,
-      "name": "Smartwatch",
-      "description": "Advanced smartwatch with health tracking",
-      "manufacturer": "WearTech",
-      "manufacturingDate": "2025-03-05",
-      "price": 300,
-      "quantity": 25
+      "id": 107,
+      "name": "Gaming Console",
+      "description": "Next-gen gaming console with 4K support",
+      "manufacturer": "GameTech",
+      "manufacturingDate": "2025-03-01",
+      "price": 500,
+      "quantity": 15
     },
     {
-      "id": 104,
-      "name": "Wireless Headphones",
-      "description": "Noise-canceling wireless headphones",
-      "manufacturer": "SoundTech",
-      "manufacturingDate": "2025-02-28",
-      "price": 200,
-      "quantity": 30
+      "id": 108,
+      "name": "External Hard Drive",
+      "description": "1TB external SSD for fast storage",
+      "manufacturer": "StoragePlus",
+      "manufacturingDate": "2025-02-20",
+      "price": 120,
+      "quantity": 35
+    },
+    {
+      "id": 110,
+      "name": "4K Monitor",
+      "description": "27-inch 4K UHD monitor with HDR",
+      "manufacturer": "ViewMax",
+      "manufacturingDate": "2025-01-25",
+      "price": 350,
+      "quantity": 22
+    },
+    {
+      "name": "Tab",
+      "description": "Ipad",
+      "manufacturer": "Apple",
+      "price": 15000,
+      "quantity": 45,
+      "id": 1742112559702
     }
   ]
 }
