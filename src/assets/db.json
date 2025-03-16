@@ -44,6 +44,15 @@
       "location": "Bengaluru",
       "mobileNumber": "7894561235",
       "id": 5
+    },
+    {
+      "email": "why@gmail.com",
+      "password": "789456",
+      "firstName": "Why",
+      "lastName": "Not",
+      "location": "Bengaluru",
+      "mobileNumber": "8050858683",
+      "id": 6
     }
   ],
   "products": [
@@ -53,7 +62,7 @@
       "description": "High-performance tablet with stylus support",
       "manufacturer": "GadgetWorld",
       "price": 605,
-      "quantity": 20
+      "quantity": 21
     },
     {
       "id": 107,
@@ -91,12 +100,12 @@
       "id": 1742112559702
     },
     {
-      "name": "tab",
-      "description": "Ipad",
+      "name": "GoPro",
+      "description": "Action camera",
       "manufacturer": "Apple",
-      "price": 15000,
-      "quantity": 45,
-      "id": 1742124136236
+      "price": 4562,
+      "quantity": 50,
+      "id": 1742154536755
     }
   ]
 }
