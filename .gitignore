@@ -1,17 +1,17 @@
  # Ignore environment files
 src/environments/environment*.ts
 
-# Ignore build outputs
+
 dist/
 out-tsc/
 
-# Ignore IDE/editor settings
+
 .vscode/
 *.log
 .DS_Store
 
-# Ignore dependencies
+
 node_modules/
 
-# Ignore Angular cache and build artifacts
+
 .angular/

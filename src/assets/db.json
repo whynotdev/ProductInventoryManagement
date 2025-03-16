@@ -35,6 +35,15 @@
       "lastName": "Sharma",
       "location": "Mumbai",
       "mobileNumber": "9456789455"
+    },
+    {
+      "email": "sai@gmail.com",
+      "password": "pass123",
+      "firstName": "sai",
+      "lastName": "m",
+      "location": "Bengaluru",
+      "mobileNumber": "7894561235",
+      "id": 5
     }
   ],
   "products": [
@@ -43,18 +52,8 @@
       "name": "Tablet",
       "description": "High-performance tablet with stylus support",
       "manufacturer": "GadgetWorld",
-      "manufacturingDate": "2025-02-15",
-      "price": 600,
+      "price": 605,
       "quantity": 20
-    },
-    {
-      "id": 106,
-      "name": "Bluetooth Speaker",
-      "description": "Portable speaker with deep bass",
-      "manufacturer": "AudioMax",
-      "manufacturingDate": "2025-01-30",
-      "price": 150,
-      "quantity": 50
     },
     {
       "id": 107,
@@ -90,6 +89,14 @@
       "price": 15000,
       "quantity": 45,
       "id": 1742112559702
+    },
+    {
+      "name": "tab",
+      "description": "Ipad",
+      "manufacturer": "Apple",
+      "price": 15000,
+      "quantity": 45,
+      "id": 1742124136236
     }
   ]
 }

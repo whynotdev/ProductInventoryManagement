@@ -13,6 +13,7 @@ export class RegisterComponent {
     if (form.valid) {
       this.authService.register(form.value).subscribe(() => {
         alert('Registration successful!');
+        form.resetForm();
       });
     } else {
       alert('Please fill out all required fields.');
