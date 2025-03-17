@@ -1,0 +1,17 @@
+ # Ignore environment files
+src/environments/environment*.ts
+
+
+dist/
+out-tsc/
+
+
+.vscode/
+*.log
+.DS_Store
+
+
+node_modules/
+
+
+.angular/

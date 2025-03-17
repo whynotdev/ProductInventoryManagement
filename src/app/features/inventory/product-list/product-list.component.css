@@ -1,0 +1,127 @@
+h2 {
+  text-align: center;
+  color: #ffffff;
+  font-size: 26px;
+  margin-bottom: 20px;
+  background: #2c3e50;
+  margin-left: 25%;
+  margin-right: 25%;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ffffff;
+  padding: 15px;
+  margin-bottom: 12px;
+  border-radius: 10px;
+  font-size: 18px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+  transition: background 0.3s ease;
+}
+
+li:hover {
+  background: #f4f6f7;
+}
+
+.product-info {
+  flex: 1;
+  word-break: break-word;
+  overflow-wrap: break-word;
+  padding-right: 15px;
+}
+
+.product-actions {
+  display: flex;
+  gap: 10px;
+}
+
+button {
+  padding: 10px 14px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.2s, background 0.3s ease;
+  white-space: nowrap;
+}
+
+.view-btn {
+  background: #1abc9c;
+  color: white;
+}
+
+.view-btn:hover {
+  background: #16a085;
+  transform: scale(1.05);
+}
+
+.edit-btn {
+  background: #f39c12;
+  color: white;
+}
+
+.edit-btn:hover {
+  background: #e67e22;
+  transform: scale(1.05);
+}
+
+.delete-btn {
+  background: #e74c3c;
+  color: white;
+}
+
+.delete-btn:hover {
+  background: #c0392b;
+  transform: scale(1.05);
+}
+
+button[routerLink] {
+  display: block;
+  width: fit-content;
+  margin: 25px auto;
+  padding: 12px 18px;
+  font-size: 18px;
+  font-weight: bold;
+  background: #2ecc71;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: transform 0.3s, background 0.3s;
+}
+
+button[routerLink]:hover {
+  background: #27ae60;
+  transform: scale(1.05);
+}
+
+@media (max-width: 600px) {
+  li {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .product-actions {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  button {
+    width: 30%;
+  }
+}
