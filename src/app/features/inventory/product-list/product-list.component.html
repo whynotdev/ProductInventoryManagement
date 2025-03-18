@@ -1,22 +1,26 @@
 <app-search-filter (search)="onSearch($event)"></app-search-filter>
 
-<div class="container">
+<div class="container mt-4">
     <h2>Product List</h2>
-  
-    <ul>
-      <li *ngFor="let product of filteredProducts">
-        <div class="product-info">
-          <strong>{{ product.name }}</strong><br>
-          <small>{{ product.description }}</small>
+
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-5 g-4">
+        <div class="col" *ngFor="let product of filteredProducts">
+            <div class="card product-card h-100" (click)="viewProduct(product.id)">
+                <div class="card-body">
+                    <h5 class="card-title">{{ product.name }}</h5>
+                    <p class="card-text">{{ product.description }}</p>
+                </div>
+                <div class="card-footer d-flex justify-content-between align-items-center">
+                    <button class="btn btn-outline-warning btn-sm" (click)="editProduct(product.id, $event)">
+                        ✏️
+                    </button>
+                    <button class="btn btn-outline-danger btn-sm" (click)="deleteProduct(product.id, $event)">
+                        🗑️
+                    </button>
+                </div>
+            </div>
         </div>
-        <div class="product-actions">
-          <button class="view-btn" (click)="viewProduct(product.id)">👁️ View</button>
-          <button class="edit-btn" (click)="editProduct(product.id)">✏️ Edit</button>
-          <button class="delete-btn" (click)="deleteProduct(product.id)"> Delete</button>
-        </div>
-      </li>
-    </ul>
-  
-    <button routerLink="/inventory/add-product"> Add New Product</button>
-  </div>
-  
+    </div>
+
+    <button class="btn btn-success mt-4" routerLink="/inventory/add-product">➕ Add New Product</button>
+</div>

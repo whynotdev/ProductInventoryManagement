@@ -1,0 +1,4 @@
+
+For showing message instead of alert 16+ version
+npm install ngx-toastr
+npm install @angular/animations

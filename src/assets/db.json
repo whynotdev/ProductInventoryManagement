@@ -92,14 +92,6 @@
       "quantity": 22
     },
     {
-      "name": "Tab",
-      "description": "Ipad",
-      "manufacturer": "Apple",
-      "price": 15000,
-      "quantity": 45,
-      "id": 1742112559702
-    },
-    {
       "name": "GoPro",
       "description": "Action camera",
       "manufacturer": "Apple",
