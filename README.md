@@ -1,6 +1,9 @@
 ﻿# ProductInventoryManagement
 Welcome Page
 ![image](https://github.com/user-attachments/assets/6d29ebd9-178d-461f-bedf-42ebc89a1eae)
+Updated 
+![image](https://github.com/user-attachments/assets/fd72b797-a3aa-4abd-b46a-700b03555b70)
+
 Registration Page
 ![image](https://github.com/user-attachments/assets/803d5f5c-a3a4-4eab-9337-6e010a7f3544)
 Login Page
