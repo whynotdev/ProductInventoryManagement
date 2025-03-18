@@ -1,8 +1,18 @@
 :host {
   display: block;
   width: 100%;
-  height: 100vh;
+  min-height: 100vh; /* Ensures full viewport height */
   background: url('https://cdn.pixabay.com/photo/2015/05/23/16/15/pen-780737_1280.jpg') no-repeat center center;
   background-size: cover;
-  color: #333;
+  background-color: black;
+}
+
+.fullscreen-bg {
+  height: 100vh; /* Image only covers full viewport height */
+}
+
+.content {
+  background-color: black; /* Ensures background color after scrolling */
+  color: #fff; /* Adjust text color for readability */
+  padding: 20px;
 }

@@ -72,4 +72,7 @@ export class UpdateProductComponent implements OnInit {
       alert('Please correct the errors in the form.');
     }
   }
+  goBack(): void {
+    this.router.navigate(['/inventory']);
+  }
 }

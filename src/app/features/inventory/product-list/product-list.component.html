@@ -2,7 +2,7 @@
 
 <div class="container mt-4">
     <h2>Product List</h2>
-
+    <button class="back-button" routerLink="/inventory/add-product">➕ Add New Product</button>
     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-5 g-4">
         <div class="col" *ngFor="let product of filteredProducts">
             <div class="card product-card h-100" (click)="viewProduct(product.id)">
@@ -22,5 +22,5 @@
         </div>
     </div>
 
-    <button class="btn btn-success mt-4" routerLink="/inventory/add-product">➕ Add New Product</button>
+ 
 </div>

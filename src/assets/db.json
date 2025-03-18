@@ -17,42 +17,6 @@
       "lastName": "S",
       "location": "Los Angeles",
       "mobileNumber": "0987123321"
-    },
-    {
-      "id": 3,
-      "email": "fatima.k@gmail.com",
-      "password": "pass789",
-      "firstName": "Fatima",
-      "lastName": "K",
-      "location": "Dubai",
-      "mobileNumber": "55667478899"
-    },
-    {
-      "id": 4,
-      "email": "rohan.sharma@gmail.com",
-      "password": "pass321",
-      "firstName": "Rohan",
-      "lastName": "Sharma",
-      "location": "Mumbai",
-      "mobileNumber": "9456789455"
-    },
-    {
-      "email": "sai@gmail.com",
-      "password": "pass123",
-      "firstName": "sai",
-      "lastName": "m",
-      "location": "Bengaluru",
-      "mobileNumber": "7894561235",
-      "id": 5
-    },
-    {
-      "email": "why@gmail.com",
-      "password": "789456",
-      "firstName": "Why",
-      "lastName": "Not",
-      "location": "Bengaluru",
-      "mobileNumber": "8050858683",
-      "id": 6
     }
   ],
   "products": [
@@ -92,12 +56,172 @@
       "quantity": 22
     },
     {
+      "id": 1742154536755,
       "name": "GoPro",
       "description": "Action camera",
       "manufacturer": "Apple",
       "price": 4562,
-      "quantity": 50,
-      "id": 1742154536755
+      "quantity": 50
+    },
+    {
+      "id": 201,
+      "name": "Wireless Keyboard",
+      "description": "Compact and ergonomic wireless keyboard",
+      "manufacturer": "TechKey",
+      "price": 45,
+      "quantity": 75
+    },
+    {
+      "id": 202,
+      "name": "Smartphone",
+      "description": "Latest 5G smartphone with AI-powered camera",
+      "manufacturer": "PhoneMax",
+      "price": 899,
+      "quantity": 40
+    },
+    {
+      "id": 203,
+      "name": "Smartwatch",
+      "description": "Fitness tracking smartwatch with ECG monitor",
+      "manufacturer": "FitTech",
+      "price": 199,
+      "quantity": 55
+    },
+    {
+      "id": 204,
+      "name": "Laptop",
+      "description": "Ultrabook with Intel i9 and 16GB RAM",
+      "manufacturer": "ProBook",
+      "price": 1299,
+      "quantity": 20
+    },
+    {
+      "id": 205,
+      "name": "Bluetooth Speaker",
+      "description": "Portable waterproof Bluetooth speaker",
+      "manufacturer": "SoundWave",
+      "price": 89,
+      "quantity": 60
+    },
+    {
+      "id": 206,
+      "name": "Gaming Mouse",
+      "description": "RGB gaming mouse with programmable buttons",
+      "manufacturer": "GamerPro",
+      "price": 59,
+      "quantity": 80
+    },
+    {
+      "id": 207,
+      "name": "Mechanical Keyboard",
+      "description": "RGB mechanical keyboard with blue switches",
+      "manufacturer": "KeyMaster",
+      "price": 75,
+      "quantity": 65
+    },
+    {
+      "id": 208,
+      "name": "VR Headset",
+      "description": "Virtual reality headset for immersive gaming",
+      "manufacturer": "VRTech",
+      "price": 349,
+      "quantity": 18
+    },
+    {
+      "id": 209,
+      "name": "Smart TV",
+      "description": "55-inch 4K Smart TV with voice control",
+      "manufacturer": "VisionMax",
+      "price": 699,
+      "quantity": 30
+    },
+    {
+      "id": 210,
+      "name": "Noise-Canceling Headphones",
+      "description": "Wireless over-ear noise-canceling headphones",
+      "manufacturer": "AudioPrime",
+      "price": 199,
+      "quantity": 45
+    },
+    {
+      "id": 211,
+      "name": "Smart Home Hub",
+      "description": "Control all your smart devices from one hub",
+      "manufacturer": "HomeTech",
+      "price": 129,
+      "quantity": 25
+    },
+    {
+      "id": 212,
+      "name": "Drone",
+      "description": "High-resolution drone with 4K camera",
+      "manufacturer": "SkyFly",
+      "price": 799,
+      "quantity": 10
+    },
+    {
+      "id": 213,
+      "name": "Robot Vacuum",
+      "description": "AI-powered robotic vacuum cleaner",
+      "manufacturer": "CleanBot",
+      "price": 349,
+      "quantity": 28
+    },
+    {
+      "id": 214,
+      "name": "Wireless Earbuds",
+      "description": "True wireless earbuds with active noise canceling",
+      "manufacturer": "SoundPlus",
+      "price": 149,
+      "quantity": 70
+    },
+    {
+      "id": 215,
+      "name": "Smart Light Bulbs",
+      "description": "Color-changing smart LED bulbs",
+      "manufacturer": "BrightTech",
+      "price": 25,
+      "quantity": 100
+    },
+    {
+      "id": 216,
+      "name": "Action Camera",
+      "description": "Waterproof 4K action camera",
+      "manufacturer": "CamPro",
+      "price": 299,
+      "quantity": 35
+    },
+    {
+      "id": 217,
+      "name": "Smart Thermostat",
+      "description": "AI-powered smart home thermostat",
+      "manufacturer": "EcoHeat",
+      "price": 199,
+      "quantity": 25
+    },
+    {
+      "id": 218,
+      "name": "E-Reader",
+      "description": "Lightweight e-reader with adjustable lighting",
+      "manufacturer": "ReadMax",
+      "price": 129,
+      "quantity": 40
+    },
+    {
+      "id": 219,
+      "name": "Fitness Tracker",
+      "description": "Wearable fitness tracker with heart rate monitor",
+      "manufacturer": "FitLife",
+      "price": 89,
+      "quantity": 50
+    },
+    {
+      "id": 223,
+      "name": "Power Bank",
+      "description": "Fast-charging 20000mAh power bank",
+      "manufacturer": "ChargePlus",
+      "price": 60,
+      "quantity": 75
     }
   ]
 }

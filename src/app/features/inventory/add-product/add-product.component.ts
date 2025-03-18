@@ -21,4 +21,8 @@ export class AddProductComponent {
       alert('Please fill in all required fields.');
     }
   }
+  goBack(): void {
+    this.router.navigate(['/inventory']);
+  }
+  
 }
